@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: darkcyan;
+    width: 100vw;
+    height: 50vh;
+    font-size: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pizza-display {
+    display: flex;
+    width: 100vw;
+    
+    justify-content: space-evenly;
+}
